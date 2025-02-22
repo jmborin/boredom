@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/boredom/static/css/main.084fa6d1.css",
+    "main.js": "/boredom/static/js/main.5443b1a5.js",
+    "static/js/453.5d1aafa2.chunk.js": "/boredom/static/js/453.5d1aafa2.chunk.js",
+    "static/media/logo.svg": "/boredom/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/boredom/index.html",
+    "main.084fa6d1.css.map": "/boredom/static/css/main.084fa6d1.css.map",
+    "main.5443b1a5.js.map": "/boredom/static/js/main.5443b1a5.js.map",
+    "453.5d1aafa2.chunk.js.map": "/boredom/static/js/453.5d1aafa2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.084fa6d1.css",
+    "static/js/main.5443b1a5.js"
+  ]
+}
