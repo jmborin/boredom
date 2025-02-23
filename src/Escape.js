@@ -90,7 +90,28 @@ function Escape() {
       `${BASE_URL}${memberImages[Math.floor(Math.random() * memberImages.length)]}`
     );
     const [animation, setAnimation] = useState({});
-  
+    
+    const sendEmail = async () => {
+        const emailData = {
+            email: "atkasper@umich.edu", // Change to your email
+            subject: "Boo",
+            message: "Fuck off"
+        };
+    
+        try {
+            const response = await fetch("http://localhost:2000/send-email", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(emailData)
+            });
+    
+            const result = await response.json();
+            console.log("Email sent:", result);
+        } catch (error) {
+            console.error("Error sending email:", error);
+        }
+    };
+    
     // Function to change the image
     const changeImage = (type) => {
       if (type === "yes") {
@@ -99,7 +120,7 @@ function Escape() {
           scale: [1, 1.2, 1], // Bounce effect
           transition: { duration: 0.8, ease: "easeInOut" } // Longer duration for full spin
         });
-  
+        sendEmail();
         // Wait for spin animation to finish before changing the image
         setTimeout(() => {
           const newRandomImage = `${BASE_URL}${memberImages[Math.floor(Math.random() * memberImages.length)]}`;

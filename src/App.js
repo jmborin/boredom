@@ -133,7 +133,7 @@ function App() {
                 y: { repeat: Infinity, duration: 2, ease: "easeInOut" },
               }}
             >
-              {submittedText} is awesome!!!
+              {submittedText} is gay!!!
             </motion.p>
             <motion.img
               key={submittedText}
