@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/boredom/static/css/main.5a9b9559.css",
-    "main.js": "/boredom/static/js/main.676f398f.js",
+    "main.js": "/boredom/static/js/main.1de370ba.js",
     "static/js/453.5d1aafa2.chunk.js": "/boredom/static/js/453.5d1aafa2.chunk.js",
     "index.html": "/boredom/index.html",
     "main.5a9b9559.css.map": "/boredom/static/css/main.5a9b9559.css.map",
-    "main.676f398f.js.map": "/boredom/static/js/main.676f398f.js.map",
+    "main.1de370ba.js.map": "/boredom/static/js/main.1de370ba.js.map",
     "453.5d1aafa2.chunk.js.map": "/boredom/static/js/453.5d1aafa2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a9b9559.css",
-    "static/js/main.676f398f.js"
+    "static/js/main.1de370ba.js"
   ]
 }
