@@ -97,3 +97,92 @@
   margin-top: 10px;
 }
 
+.text-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background: #218838;
+}
+
+.flashing-text {
+  font-size: 64px;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
+}
+
+.navigate-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.navigate-button:hover {
+  background: #0056b3;
+}
+
+/* Position the Escape input & button in the top-left corner */
+.escape-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Style for the Escape input field */
+.escape-input {
+  width: 150px;
+  padding: 8px;
+  font-size: 14px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Style for the Escape submit button */
+.escape-button {
+  width: 100px;
+  padding: 8px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+.escape-button:hover {
+  background-color: #cc0000;
+}
